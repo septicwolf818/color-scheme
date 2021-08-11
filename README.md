@@ -34,11 +34,7 @@ macOS Big Sur 11.5.1
 elementary OS 6 Odin
 ### User interface
 ![obraz](images/ubuntu.png)
-
-
 ![obraz](images/macos.png)
-
-
 ![obraz](images/elementaryos_6.png)
 ### Responsive website template
 #### Mobile
