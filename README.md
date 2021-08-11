@@ -13,11 +13,6 @@ Installing from PyPI with pip:
 3. Execute `pip3 install pycairo` to build and install Pycairo
 4. Execute `pip3 install PyGObject` to build and install PyGObject
 
-## Start app
-
-1. Enter into app directory
-2. Execute `python3 main.py` to start Color Scheme app
-
 ### macOS
 Installing PyGObject using brew
 1. Open a terminal app
@@ -27,6 +22,9 @@ Installing Gtk 3 using brew
 1. Open a terminal app
 2. Execute `brew install gtk+3` to install Gtk 3
 
+## Start app
+1. Enter into app directory
+2. Execute `python3 main.py` to start Color Scheme app
 
 ## Screenshots
 Ubuntu 20.04 - Yaru
