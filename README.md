@@ -1,12 +1,45 @@
 # Color Scheme
 A small simple tool to generate color schemes for websites. The tool also offers generating a simple website using the generated colors. Application created for use with Linux distributions.
+# How to run
+## Install dependencies
+### Debian/Ubuntu
+Installing the system provided PyGObject
+1. Open a terminal
+2. Execute `sudo apt install python3-gi python3-gi-cairo gir1.2-gtk-3.0`
+
+Installing from PyPI with pip:
+1. Open a terminal and enter your virtual environment
+2. Execute `sudo apt install libgirepository1.0-dev gcc libcairo2-dev pkg-config python3-dev gir1.2-gtk-3.0` to install the build dependencies and GTK
+3. Execute `pip3 install pycairo` to build and install Pycairo
+4. Execute `pip3 install PyGObject` to build and install PyGObject
+
+## Start app
+
+1. Enter into app directory
+2. Execute `python3 main.py` to start Color Scheme app
+
+### macOS
+Installing PyGObject using brew
+1. Open a terminal app
+2. Execute `brew install pygobject3` to install PyGObject
+
+Installing Gtk 3 using brew
+1. Open a terminal app
+2. Execute `brew install gtk+3` to install Gtk 3
+
+
 ## Screenshots
-(Ubuntu 20.04 - Yaru)
+Ubuntu 20.04 - Yaru
+
+macOS Big Sur 11.5.1
 ### User interface
-![obraz](https://user-images.githubusercontent.com/34957083/81056116-41ff2680-8eca-11ea-8081-f1f6d47ce70e.png)
+![obraz](images/ubuntu.png)
+![obraz](images/macos.png)
 ### Responsive website template
 #### Mobile
-![obraz](https://user-images.githubusercontent.com/34957083/81056384-c0f45f00-8eca-11ea-8dfa-1d4f15aa18ab.png)
+![obraz](images/mobile.png)
 #### Desktop
-![obraz](https://user-images.githubusercontent.com/34957083/81056439-d6698900-8eca-11ea-98fc-743f1639def5.png)
+![obraz](images/desktop.png)
 
+### Note
+Notifications are not available on macOS as it is not using `systemd`. To use `dbus` communication you will need to be running X11 session.

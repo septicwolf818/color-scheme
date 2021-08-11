@@ -84,14 +84,17 @@ class ColorScheme:
         gtk.main_quit()
 
     def show_notification(self, title, content):
-        if self.notifier == None:
-            import gi
-            gi.require_version('Notify', '0.7')
-            from gi.repository import Notify
-            Notify.init("Color Scheme")
-            self.notifier = Notify
-        self.notifier.Notification.new(
-            title, content, "dialog-information").show()
+        try:
+            if self.notifier == None:
+                import gi
+                gi.require_version('Notify', '0.7')
+                from gi.repository import Notify
+                Notify.init("Color Scheme")
+                self.notifier = Notify
+            self.notifier.Notification.new(
+               title, content, "dialog-information").show()
+        except Exception as e:
+            pass
 
     def copy_color_to_clipboard(self, caller):
         name = caller.get_name()
