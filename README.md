@@ -32,6 +32,8 @@ Ubuntu 20.04 - Yaru
 macOS Big Sur 11.5.1
 ### User interface
 ![obraz](images/ubuntu.png)
+
+
 ![obraz](images/macos.png)
 ### Responsive website template
 #### Mobile
