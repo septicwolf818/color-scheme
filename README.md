@@ -27,14 +27,19 @@ Installing Gtk 3 using brew
 2. Execute `python3 main.py` to start Color Scheme app
 
 ## Screenshots
-Ubuntu 20.04 - Yaru
+Ubuntu 20.04 Focal Fossa - Yaru
 
 macOS Big Sur 11.5.1
+
+elementary OS 6 Odin
 ### User interface
 ![obraz](images/ubuntu.png)
 
 
 ![obraz](images/macos.png)
+
+
+![obraz](images/elementaryos_6.png)
 ### Responsive website template
 #### Mobile
 ![obraz](images/mobile.png)
